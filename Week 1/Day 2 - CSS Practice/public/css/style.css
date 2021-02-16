@@ -1,0 +1,68 @@
+/* RESET */
+
+body {
+  background-image: url('../img/pattern.jpg');
+  padding: 0px;
+  margin: 0px;
+}
+
+/* HEADER */
+
+header {
+  background-color: coral;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+header nav ul a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+/* SECTION */
+
+section h1 {
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  color: coral;
+}
+
+section article {
+  background-color: white;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+section article a h3{
+  font-weight: 700;
+}
+
+section article p {
+  font-size: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+}
+
+footer h5 {
+  margin: 0px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+}
+
